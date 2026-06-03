@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Cyber | DOUICHER Camelia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── FOND ANIMÉ ── -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- ── RETOUR EN HAUT ── -->
+    <button id="scrollTop" type="button" title="Retour en haut">↑</button>
+
+    <!-- ── NAVIGATION ── -->
+    <nav>
+      <a class="nav-logo" href="#">DC<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">à propos</a></li>
+        <li><a href="#skills">compétences</a></li>
+        <li><a href="#projects">projets</a></li>
+        <li><a href="#experience">expérience</a></li>
+        <li><a href="#certifications">certifications</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    
+    <!-- ── HERO ── -->
+    <header class="hero">
+      <p class="hero-sub">
+        // ÉTUDIANTE EN BUT RÉSEAUX ET TÉLÉCOMMUNICATIONS — CYBERSÉCURITÉ
+      </p>
+      <h1 class="glitch" data-text="DOUICHER CAMELIA">DOUICHER CAMELIA</h1>
+      <p class="hero-desc">
+        Protéger les systèmes, traquer les menaces et tester les failles de
+        manière éthique.<br />
+        Passionnée par la
+        <strong class="text-accent">sécurité offensive</strong> et la
+        <strong class="text-accent">forensique numérique</strong>.
+      </p>
+      <div class="hero-badges">
+        <span class="badge">Tests d'intrusion</span>
+        <span class="badge">Sécurité réseau</span>
+        <span class="badge">Joueuse CTF</span>
+        <span class="badge">OSINT</span>
+        <span class="badge">Analyse de malware</span>
+      </div>
+
+      <!-- TERMINAL -->
+      <div class="terminal-wrap">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot r"></span>
+            <span class="dot y"></span>
+            <span class="dot g"></span>
+            <span class="terminal-title">camelia@kali:~$</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-label">utilisateur@portfolio</span> ~ whoami</p>
+            <p>Statut : <span class="t-green">PROTÉGÉ</span></p>
+            <p>Rôle : <span class="t-yellow">BUT RT — Cybersécurité</span></p>
+            <p>Localisation : <span class="t-yellow">France 🇫🇷</span></p>
+            <p>
+              Disponibilité :
+              <span class="t-green">OUI — Ouverte aux opportunités</span>
+            </p>
+            <p class="terminal-help">
+              Commandes : help · skills · projects · clear · whoami
+            </p>
+            <div class="terminal-input-row">
+              <span class="prompt">$&gt;</span>
+              <input
+                id="terminal-input"
+                placeholder="tape une commande..."
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <span class="cursor-blink"></span>
+            </div>
+            <div id="output"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<!-- ── ABOUT ── -->
+<div class="section-divider"></div>
+
+<section id="about">
+  <p class="section-label fade-in">// 01. À PROPOS</p>
+  <h2 class="section-title fade-in">Qui suis-je ?</h2>
+
+  <div class="about-stack">
+    <div class="about-photo fade-in">
+      <div class="photo-circle">
+        <img src="camelia.png" alt="Douicher Camelia">
+      </div>
+    </div>
+
+      <h4>BUT Réseaux et Télécoms Parcours Cybersécurité</h4>
+
+    <div class="about-text fade-in">
+      <div class="about-card">
+        <p>
+          Je m'appelle <strong>Douicher Camelia</strong>, étudiante en Réseaux et
+          Télécoms parcours Cybersécurité à Villetaneuse (93).
+        </p>
+
+        <p>
+          À 19 ans, je développe chaque jour ma passion pour l'informatique et
+          la cybersécurité à travers l'apprentissage, la pratique et la
+          découverte de nouvelles technologies.
+        </p>
+
+        <p>
+          Je suis actuellement en BUT R&T à la Sorbonne Nord, où j'approfondis
+          mes connaissances en réseaux, développement et sécurité informatique.
+          J'aime découvrir de nouvelles technologies et continuer à évoluer dans
+          un domaine qui me passionne.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ── SKILLS ── -->
+<div class="section-divider"></div>
+
+<section id="skills">
+  <p class="section-label fade-in">// 02. COMPÉTENCES</p>
+  <h2 class="section-title fade-in">Compétences Techniques</h2>
+
+  <div class="skills-grid">
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>🌐 Réseaux</h3>
+        <span class="skill-card-link">[Github]</span>
+      </div>
+
+      <ul class="skill-list">
+        <li>IPv4/IPv6, TCP/UDP, DNS, DHCP, HTTP/HTTPS, FTP, SSH, STP</li>
+        <li>Routage & segmentation réseau (RIP, OSPF, VLAN, inter-VLAN, DMZ, HSRP)</li>
+        <li>VPN site-à-site, accès distant</li>
+        <li>Analyse et diagnostic réseau (Wireshark, GNS3, Cisco Packet Tracer)</li>
+        <li>Administration Windows/Linux & Virtualisation (Hyper-V VMware VirtualBox)</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>📶 Télécommunications</h3>
+        <span class="skill-card-link">[Github]</span>
+      </div>
+
+      <ul class="skill-list">
+        <li>VoIP / PABX-IPBX (installation, configuration)</li>
+        <li>Equipements réseaux (routeurs, commutateurs, maintenance)</li>
+        <li>Interconnexion cuivre & fibre (soudures, mesures d'atténuation 1310/1550 nm)</li>
+        <li>Modulations (ASK, BPSK, QAM), analyse spectrale</li>
+        <li>Etude d'un réseau GSM avec couverture, BTS et interférences</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>⚙️ Programmation</h3>
+        <span class="skill-card-link">[Github]</span>
+      </div>
+
+      <ul class="skill-list">
+        <li>HTML, CSS, PHP</li>
+        <li>MySQL / PostgreSQL </br> (SELECT, INSERT, UPDATE, DELETE)</li>
+        <li>Scripts Bash, Shell & Python (automatisation)</li>
+        <li>Manipulation JSON</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>🔐 Cybersécurité</h3>
+        <span class="skill-card-link">[Github]</span>
+      </div>
+
+      <ul class="skill-list">
+        <li>ACL, pare-feu (iptables), IDS / IPS</li>
+        <li>BIND, transfert de zone, DNSSEC </br>
+          (ZSK / KSK, validation)</li>
+        <li>DNS spoofing, cache poisoning (Scapy)</li>
+        <li>RSA, AES , SHA-256, gestion de clé </br>
+          (publique / privée), certificats, PKI</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+    <div class="section-divider"></div>
+    <section id="projects">
+      <p class="section-label fade-in">// 03. PROJETS</p>
+      <h2 class="section-title fade-in">Projets Sélectionnés</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[GitHub]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">🖥️ Développement client-serveur (UDP/TCP)</div>
+            <div class="project-desc">
+               sockets, échanges réseau, base de données.
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OSINT</span>
+              <span class="tag">Shodan API</span>
+              <span class="tag">DNS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[GitHub]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">🌐 Réseau multi-sites sécurisé</div>
+            <div class="project-desc">
+              VLAN, routage, firewall, DMZ, services (GLPI, web, fichiers)
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Requests</span>
+              <span class="tag">SQLi</span>
+              <span class="tag">XSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[GitHub]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              🏢 Infrastructure centralisée
+            </div>
+            <div class="project-desc">
+              administration système et gestion d'Active Directory 
+            </div>
+            <div class="project-tags">
+              <span class="tag">Cuckoo</span>
+              <span class="tag">Docker</span>
+              <span class="tag">YARA</span>
+              <span class="tag">Forensique</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[GitHub]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">💡 Fibre optique</div>
+            <div class="project-desc">
+              configuration, contrôle qualité (taux d’erreur), optimisation transmission
+            </div>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scapy</span>
+              <span class="tag">Réseau</span>
+              <span class="tag">PCAP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[GitHub]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">📻 Télécommunications radio</div>
+            <div class="project-desc">
+               Étude et mise en œuvre de la modulation AM/FM, réalisation d’un émetteur type talkie-walkie.
+            </div>
+            <div class="project-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">NLP</span>
+              <span class="tag">Threat Intel</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-links">
+              <a href="#">[Github]</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">⚙️ PAM & automatisation Python</div>
+            <div class="project-desc">
+              gestion IP, CSV, scripts
+            </div>
+            <div class="project-tags">
+              <span class="tag">HackTheBox</span>
+              <span class="tag">TryHackMe</span>
+              <span class="tag">CTF</span>
+              <span class="tag">Write-ups</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <div class="section-divider"></div>
+    <section id="experience">
+      <p class="section-label fade-in">// 04. EXPÉRIENCE</p>
+      <h2 class="section-title fade-in">Parcours</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">AVRIL 2026 — JUIN 2026</div>
+          <div class="timeline-role">
+            Stage en Cybersécurité à la Communauté d'Aglomération de Marne et Gondoire
+          </div>
+          <div class="timeline-company">Bussy-Saint-Martin (77)</div>
+          <div class="timeline-body">
+            Joueuse active de CTF sur HackTheBox et TryHackMe. Création d’outils
+            de sécurité, contribution à des projets open-source et préparation
+            de certifications en sécurité offensive.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2024 - 2027</div>
+          <div class="timeline-role">BUT Réseaux & Télécommunications Parcours Cybersécurité</div>
+          <div class="timeline-company">IUT de Villetaneuse - Université Sorbonne Paris Nord (93)</div>
+          <div class="timeline-body">
+            Encadrement d'une équipe pour développer une plateforme de
+            sensibilisation à la cybersécurité. Simulation de phishing, bonnes
+            pratiques de mots de passe et navigation sécurisée.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2021 - 2024</div>
+          <div class="timeline-role">Bac général : Spécialités Maths et Physique-Chimie</div>
+          <div class="timeline-company">Lycée Henry Moissan Meaux (77)</div>
+          <div class="timeline-body">
+            Gestion d’un laboratoire réseau universitaire. Configuration de
+            routeurs, switchs, firewalls (Cisco, pfSense) et mise en place d’un
+            honeypot pour surveiller les attaques.
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ── PROJECTION & AVENIR ── -->
+<div class="section-divider"></div>
+
+<section id="avenir">
+  <p class="section-label fade-in">// 05. PROJECTION & AVENIR</p>
+
+  <div class="future-layout">
+    <div class="future-main-card fade-in">
+      <h3>Bilan Global</h3>
+      <p>
+        Au fil de ma formation, j’ai pu développer des bases solides en réseaux,
+        cybersécurité et développement. Cette progression m’a permis de renforcer
+        mon autonomie, ma rigueur et ma capacité à résoudre des problèmes de
+        manière méthodique.
+      </p>
+
+      <p>
+        J’ai également appris à travailler en équipe, à m’adapter à de nouveaux
+        environnements techniques et à approfondir ma curiosité pour les domaines
+        de la sécurité offensive, de l’analyse réseau et de l’administration
+        système.
+      </p>
+
+      <p>
+        <strong>Axes d’amélioration :</strong> continuer à approfondir la
+        cybersécurité offensive, la virtualisation, l’automatisation
+        d’infrastructure ainsi que les outils liés à l’analyse et à la défense
+        des systèmes.
+      </p>
+    </div>
+
+    <div class="future-cards">
+      <div class="future-small-card fade-in">
+        <h3>Objectif Professionnel</h3>
+        <p>
+          Évoluer vers un métier lié à la cybersécurité, à l’administration
+          réseau ou à la sécurité des systèmes d’information.
+        </p>
+        <p>
+          À long terme, je souhaite développer une expertise technique solide
+          dans la protection des infrastructures et la gestion des incidents.
+        </p>
+      </div>
+
+      <div class="future-small-card fade-in">
+        <h3>Poursuite d’études</h3>
+        <p>
+          Après le BUT, je souhaite poursuivre mes études dans un cursus orienté
+          cybersécurité ou réseaux avancés afin de renforcer mes compétences.
+        </p>
+        <p>
+          Mon objectif est également de préparer progressivement des
+          certifications reconnues et de continuer à développer mon expérience
+          pratique.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ── CONTACT ── -->
+    <div class="section-divider"></div>
+    <section id="contact">
+      <p class="section-label fade-in">// 06. CONTACT</p>
+      <h2 class="section-title fade-in">Me Contacter</h2>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <p>
+            Je suis actuellement ouverte aux opportunités d'alternance
+            en réseau et cybersécurité. Une question, un projet ou une discussion sécurité
+            ? N'hésitez pas à me contacter.
+          </p>
+
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:camelia.douicher@email.com">
+              <span class="cl-icon">📧</span> cameliadouicher77100@gmail.com
+            </a>
+
+            <a
+              class="contact-link"
+              href="https://linkedin.com/in/cameliadouicher"
+              target="_blank"
+            >
+              <span class="cl-icon">💼</span> linkedin.com/in/cameliadouicher
+            </a>
+
+            <a
+              class="contact-link"
+              href="https://github.com/cameliadouicher"
+              target="_blank"
+            >
+              <span class="cl-icon">🐙</span> github.com/cameliadouicher
+            </a>
+
+          </div>
+        </div>
+
+        <div class="contact-form fade-in">
+          <div class="form-field">
+            <label>VOTRE NOM</label>
+            <input type="text" id="c-name" placeholder="Jean Dupont" />
+          </div>
+
+          <div class="form-field">
+            <label>VOTRE EMAIL</label>
+            <input type="email" id="c-email" placeholder="email@example.com" />
+          </div>
+
+          <div class="form-field">
+            <label>MESSAGE</label>
+            <textarea
+              id="c-msg"
+              rows="5"
+              placeholder="Bonjour Camelia, je souhaite..."
+            ></textarea>
+          </div>
+
+          <button class="btn-submit" id="send-btn" type="button">ENVOYER →</button>
+
+          <div id="form-feedback">
+            ✓ Message envoyé avec succès ! Je vous répondrai rapidement.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <div>© 2024 <span>Douicher Camelia</span> — Tous droits réservés</div>
+      <div>
+        Conçu & développé sur <span>Kali Linux</span>
+      </div>
+      <div class="footer-slogan">// RESTEZ CURIEUX. RESTEZ ÉTHIQUES.</div>
+    </footer>
+
+    <!-- ── SCRIPTS ── -->
+    <script src="main.js"></script>
+  </body>
+</html>
