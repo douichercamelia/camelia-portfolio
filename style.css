@@ -1157,3 +1157,7 @@ footer span,
     line-height: 1.75;
   }
 }
+
+html {
+  zoom: 0.67;
+}
