@@ -1115,3 +1115,7 @@ footer span,
     width: 100%;
   }
 }
+
+html {
+  zoom: 0.9;
+}
