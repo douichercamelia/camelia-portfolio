@@ -26,6 +26,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 95%;
+    zoom: 0.67;
+  
 }
 
 body {
@@ -1156,8 +1158,4 @@ footer span,
     font-size: 0.96rem;
     line-height: 1.75;
   }
-}
-
-html {
-  zoom: 0.20;
 }
