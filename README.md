@@ -1,4 +1,4 @@
-# Portfolio — Douicher Camelia
+# Portfolio Douicher Camelia
 
 Étudiante en Réseaux & Télécommunications parcours Cybersécurité.
 
@@ -6,13 +6,12 @@ Ce portfolio présente mes compétences, projets et travaux réalisés en résea
 
 ## Structure du projet
 
-portfolio/
-│
-├── index.html
-├── style.css
-├── main.js
-├── camelia.png
-└── README.md
+| Fichier | Rôle |
+| index.html | Structure principale du portfolio |
+| style.css | Mise en forme et design du site |
+| main.js | Animations et interactions |
+| camelia.png | Photo utilisée dans la section présentation |
+| README.md | Documentation du projet |
 
 ## Contenu
 
@@ -42,11 +41,9 @@ Le site s'ouvrira automatiquement dans le navigateur.
 
 ### Solution 2 — Via GitHub Pages
 
-Le portfolio est également accessible directement en ligne :
-
-https://douichercamelia.github.io/camelia-portfolio/
+Le portfolio est également accessible directement en ligne : https://douichercamelia.github.io/camelia-portfolio/
 
 ## Auteur
 
 Douicher Camelia
-BUT Réseaux & Télécommunications — Cybersécurité
+BUT Réseaux & Télécommunications Cybersécurité
