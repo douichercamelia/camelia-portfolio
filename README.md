@@ -7,11 +7,12 @@ Ce portfolio présente mes compétences, projets et travaux réalisés en résea
 ## Structure du projet
 
 | Fichier | Rôle |
-| index.html | Structure principale du portfolio |
-| style.css | Mise en forme et design du site |
-| main.js | Animations et interactions |
-| camelia.png | Photo utilisée dans la section présentation |
-| README.md | Documentation du projet |
+|---|---|
+| `index.html` | Structure principale du portfolio |
+| `style.css` | Mise en forme et design du site |
+| `main.js` | Animations et interactions |
+| `camelia.png` | Photo utilisée dans la section présentation |
+| `README.md` | Documentation du projet |
 
 ## Contenu
 
