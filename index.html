@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Cyber | DOUICHER Camelia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    #FOND ANIMÉ 
+    <canvas id="bg-canvas"></canvas>
+
+    #NAVIGATION
+    <nav>
+      <a class="nav-logo" href="#home">DOUICHER Camélia<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À Propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#experience">Parcours</a></li>
+        <li><a href="#avenir">Perspectives</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+    #HERO
+    <header class="hero" id="home">
+      <p class="hero-sub">
+        // ÉTUDIANTE EN BUT RÉSEAUX ET TÉLÉCOMMUNICATIONS CYBERSÉCURITÉ
+      </p>
+      <h1 class="glitch" data-text="DOUICHER CAMELIA">DOUICHER CAMELIA</h1>
+      <p class="hero-desc">
+        Future experte en Réseaux & Télécommunications.
+        <br />
+        Je construis, sécurise et optimise les infrastructures de demain.
+      </p>
+      <div class="hero-badges">
+        <span class="badge">Pentesting</span>
+        <span class="badge">Infrastructure Réseau</span>
+        <span class="badge">SOC & Sécurité</span>
+        <span class="badge">Transmission Radio</span>
+        <span class="badge">Analyse de vulnérabilités</span>
+      </div>
+
+      <!-- TERMINAL -->
+      <div class="terminal-wrap">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot r"></span>
+            <span class="dot y"></span>
+            <span class="dot g"></span>
+            <span class="terminal-title">camelia@kali:~$</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-label">utilisateur@portfolio</span> ~ whoami</p>
+            <p>Statut : <span class="t-green">PROTÉGÉ</span></p>
+            <p>Rôle : <span class="t-yellow">BUT RT - Cybersécurité</span></p>
+            <p>Localisation : <span class="t-yellow">France 🇫🇷</span></p>
+            <p>
+              Disponibilité :
+              <span class="t-green">OUI - Ouverte aux opportunités</span>
+            </p>
+            <p class="terminal-help">
+              Commandes : help · skills · projects · clear · whoami
+            </p>
+            <div class="terminal-input-row">
+              <span class="prompt">$&gt;</span>
+              <input
+                id="terminal-input"
+                placeholder="tape une commande..."
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <span class="cursor-blink"></span>
+            </div>
+            <div id="output"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+#ABOUT
+<div class="section-divider"></div>
+
+<section id="about">
+  <p class="section-label fade-in">// 01. À PROPOS</p>
+  <h2 class="section-title fade-in">Qui suis-je ?</h2>
+
+  <div class="about-stack">
+    <div class="about-photo fade-in">
+      <div class="photo-circle">
+        <img src="camelia.png" alt="Douicher Camelia">
+      </div>
+    </div>
+
+    <h4>BUT Réseaux et Télécoms Parcours Cybersécurité</h4>
+
+    <div class="about-text fade-in">
+      <div class="about-card">
+        <p>
+          Je m'appelle <strong>Douicher Camelia</strong>, étudiante en Réseaux et
+          Télécoms parcours Cybersécurité à Villetaneuse (93).
+        </p>
+
+        <p>
+          À 19 ans, je développe ma passion pour l'informatique et la cybersécurité à travers l'apprentissage et la découverte de nouvelles technologies.
+          À l'IUT Sorbonne Paris Nord, j'approfondis mes compétences en réseaux, sécurité informatique et développement.
+        </p>
+
+        <p>
+          Je suis une personne curieuse et motivée, le handball et le basketball m'ont appris l'esprit d'équipe, la discipline et la persévérance, des qualités que j'applique dans mes projets.
+          La science-fiction, les films dystopiques et la musique nourrissent aussi mon imagination et mon intérêt pour les technologies de demain.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+#SKILL
+<div class="section-divider"></div>
+
+<section id="skills">
+  <p class="section-label fade-in">// 02. COMPÉTENCES</p>
+  <h2 class="section-title fade-in">Compétences techniques</h2>
+
+  <div class="skills-grid">
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>🌐 Réseaux</h3>
+        <div class="skill-links">
+        <a class="skill-card-link" href="https://drive.google.com/drive/folders/10KAKBHNMS6WBooChYbTAjn8og28S4rRZ?usp=sharing" target="_blank">[Voir]</a></div>
+      </div>
+
+      <ul class="skill-list">
+        <li>Protocoles réseau : IPv4/IPv6, TCP/UDP, DNS, DHCP, HTTP/HTTPS, SSH, ICMP</li>
+        <li>Routage et segmentation réseau : RIP, OSPF, VLAN, inter-VLAN, DMZ, HSRP</li>
+        <li>VPN site à site et accès distant sécurisé</li>
+        <li>Analyse réseau et supervision : Wireshark, GNS3, Cisco Packet Tracer</li>
+        <li>Administration de systèmes Windows/Linux, Active Directory et virtualisation (Hyper-V, VMware, VirtualBox)</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>📶 Télécommunications</h3>
+        <div class="skill-links">
+        <a class="skill-card-link" href="https://drive.google.com/drive/folders/1j12hI5yPgdNM9InXikdJYgU_iV0zRQfd?usp=sharing" target="_blank">[Voir]</a></div>
+      </div>
+
+      <ul class="skill-list">
+        <li>VoIP / PABX-IPBX : installation, configuration et signalisation SIP</li>
+        <li>Équipements Cisco : routeurs, commutateurs et maintenance</li>
+        <li>Interconnexion cuivre et fibre optique : soudures, atténuation, réflectométrie</li>
+        <li>Modulations numériques et analogiques : ASK, BPSK, QAM, AM/FM</li>
+        <li>Étude des réseaux GSM : couverture radio, BTS et interférences</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>⚙️ Programmation</h3>
+        <div class="skill-links">
+        <a class="skill-card-link" href="https://drive.google.com/drive/folders/184SIl4C_lhNYTFZeVQnkSbFy7l3YV4WX?usp=sharing" target="_blank">[Voir]</a></div>
+      </div>
+
+      <ul class="skill-list">
+        <li>Développement web : HTML, CSS, PHP</li>
+        <li>Bases de données MySQL / PostgreSQL : SELECT, INSERT, UPDATE, DELETE</li>
+        <li>Scripts Bash, Shell et Python pour l'automatisation</li>
+        <li>Manipulation et traitement de données JSON</li>
+      </ul>
+    </article>
+
+    <article class="skill-card fade-in">
+      <div class="skill-card-header">
+        <h3>🛡️ Cybersécurité</h3>
+        <div class="skill-links">
+        <a class="skill-card-link" href="https://drive.google.com/drive/folders/1nE6a1F-YuUppw3j2txvewns6a9Y4ivib?usp=sharing" target="_blank">[Voir]</a></div>
+      </div>
+
+      <ul class="skill-list">
+        <li>ACL, pare-feu (iptables), IDS / IPS</li>
+        <li>DNS sécurisé : BIND, transfert de zone, DNSSEC, ZSK / KSK</li>
+        <li>Analyse et simulation d'attaques réseau : DNS spoofing, cache poisoning (Scapy)</li>
+        <li>Cryptographie et sécurité : RSA, AES, SHA-256, gestion de clés, certificats et PKI</li>
+      </ul>
+    </article>
+
+    <div class="skills-extra-card fade-in">
+      <div class="skills-inline-block">
+        <span class="skills-inline-title">Langues</span>
+        <div class="skills-inline-tags">
+          <span class="skills-inline-tag">Français : C2</span>
+          <span class="skills-inline-tag">Anglais : B1</span>
+          <span class="skills-inline-tag">Espagnol : B1</span>
+        </div>
+      </div>
+
+      <div class="skills-inline-block">
+        <span class="skills-inline-title">Outils complémentaires</span>
+        <div class="skills-inline-tags">
+          <span class="skills-inline-tag">Pack Office</span>
+          <span class="skills-inline-tag">Google Workspace</span>
+          <span class="skills-inline-tag">Microsoft Teams</span>
+          <span class="skills-inline-tag">Trello</span>
+          <span class="skills-inline-tag">VS Code</span>
+          <span class="skills-inline-tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+#PROJECTS
+<div class="section-divider"></div>
+<section id="projects">
+  <p class="section-label fade-in">// 03. PROJETS</p>
+  <h2 class="section-title fade-in">Projets sélectionnés</h2>
+
+  <div class="projects-grid">
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1XNjRnJOBVFsKaIeDmeHL8RkGBpazn_0g?usp=drive_link" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">🖥️ Application web Tirelire</div>
+        <div class="project-desc">
+          Développement d'une application web en Flask intégrant la gestion d'utilisateurs, une base de données SQLite et des échanges client/serveur en HTTP, TCP et UDP.
+        </div>
+        <div class="project-tags">
+          <span class="tool-tag">Python</span>
+          <span class="tool-tag">Flask</span>
+          <span class="tool-tag">SQLite</span>
+          <span class="tool-tag">HTML/CSS</span>
+          <span class="tool-tag">TCP/UDP</span>
+          <span class="tool-tag">HTTP</span>
+          <span class="tool-tag">Client/Serveur</span>
+          <span class="tool-tag">Authentification</span>
+          <span class="tool-tag">SHA-256</span>
+          <span class="tool-tag">CRUD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1x5iGOOLPOUz4dB27J0vN4SbGWFukx4dS/view?usp=sharing" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">🖧 Réseau multi-sites sécurisé</div>
+        <div class="project-desc">
+          Conception et mise en place d'un réseau d'entreprise sécurisé avec VLAN, pare-feu pfSense et séparation des accès utilisateurs selon les différents services.
+        </div>
+        <div class="project-tags">
+          <span class="tool-tag">pfSense</span>
+          <span class="tool-tag">GLPI</span>
+          <span class="tool-tag">DMZ</span>
+          <span class="tool-tag">ACL</span>
+          <span class="tool-tag">MariaDB</span>
+          <span class="tool-tag">Virtualisation</span>
+          <span class="tool-tag">Wi-Fi</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1MReHYlppWgOgetKXDpk0mpKB3RmZiKTT/view?usp=sharing" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">🏢 Architecture réseau d'entreprise</div>
+        <div class="project-desc">
+          Conception d'une architecture réseau intégrant VLAN, routage, services réseau et règles de sécurité, réalisée sur Cisco Packet Tracer.
+        </div>
+        <div class="project-tags">
+          <span class="tool-tag">VLAN & Inter-VLAN</span>
+          <span class="tool-tag">ACL</span>
+          <span class="tool-tag">NAT/PAT</span>
+          <span class="tool-tag">DNS</span>
+          <span class="tool-tag">DHCP</span>
+          <span class="tool-tag">SSH</span>
+          <span class="tool-tag">Cisco IOS</span>
+          <span class="tool-tag">Packet Tracer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1GAKbX1sbQv1SDbjWKnrT-0rnMvqUBnRF?usp=sharing" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">💡 Fibre optique</div>
+        <div class="project-desc">
+          Mise en place d'un système de transmission sur fibre optique utilisant le WDM afin de faire circuler plusieurs signaux sur une même liaison.
+        </div>
+        <div class="project-tags">
+          <span class="tool-tag">CWDM</span>
+          <span class="tool-tag">OADM</span>
+          <span class="tool-tag">OTDR</span>
+          <span class="tool-tag">OSNR</span>
+          <span class="tool-tag">SFP</span>
+          <span class="tool-tag">1310 nm & 1550 nm</span>
+          <span class="tool-tag">LC/PC</span>
+          <span class="tool-tag">Fibre monomode</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1r7G9Rwa2PukJGv37mbXD-2KgzExxqYUQ/view?usp=sharing" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">📻 Télécommunications radio</div>
+        <div class="project-desc">
+          Étude de la transmission radio AM/FM avec réalisation d'un système de communication de type talkie-walkie et analyse des signaux associés.
+        </div>
+        <div class="project-tags">
+          <span class="tool-tag">AM/FM</span>
+          <span class="tool-tag">VCO</span>
+          <span class="tool-tag">FFT</span>
+          <span class="tool-tag">AD633</span>
+          <span class="tool-tag">Oscilloscope</span>
+          <span class="tool-tag">Analyse spectrale</span>
+          <span class="tool-tag">Signal modulé</span>
+          <span class="tool-tag">Radiodiffusion</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/15qo2fOvWaEPrEwrExSfey_l8K83ogctK/view?usp=sharing" target="_blank">[Voir]</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">🔐 Pentesting & analyse de vulnérabilités</div>
+        <div class="project-desc">
+          Analyse d'un environnement vulnérable (Metasploitable, Windows XP) avec scans Nessus, détection et exploitation contrôlée de failles via Metasploit.
+        </div>
+        <div class="project-tags">
+          <span class="tag">MS08-067</span>
+          <span class="tag">Meterpreter</span>
+          <span class="tag">Reverse TCP</span>
+          <span class="tag">vsftpd 2.3.4 Backdoor</span>
+          <span class="tag">Bind Shell</span>
+          <span class="tag">Nessus</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+#EXPERIENCE
+<div class="section-divider"></div>
+<section id="experience">
+  <p class="section-label fade-in">// 04. PARCOURS</p>
+  <h2 class="section-title fade-in">Expériences</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-date">AVRIL 2026 - JUIN 2026</div>
+      <div class="timeline-role">
+        Stage en cybersécurité à la Communauté d'Agglomération de Marne et Gondoire
+      </div>
+      <div class="timeline-company">Bussy-Saint-Martin (77)</div>
+      <div class="timeline-body">
+        Participation au suivi de la sécurité du système d'information à travers l'analyse d'alertes, le traitement d'incidents et le suivi des vulnérabilités. Découverte des environnements SOC, des campagnes de phishing avec GoPhish, des solutions WatchGuard EPDR ainsi que des outils d'analyse Active Directory comme PingCastle.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2024 - 2027</div>
+      <div class="timeline-role">BUT Réseaux & Télécommunications - Parcours Cybersécurité</div>
+      <div class="timeline-company">IUT de Villetaneuse - Université Sorbonne Paris Nord (93)</div>
+      <div class="timeline-body">
+        Formation axée sur les réseaux, les télécommunications et la cybersécurité, avec mise en place d'infrastructures informatiques, administration de systèmes, analyse des communications réseau et développement de solutions techniques.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2021 - 2024</div>
+      <div class="timeline-role">Baccalauréat général - spécialités Mathématiques et Physique-Chimie</div>
+      <div class="timeline-company">Lycée Henry Moissan - Meaux (77)</div>
+      <div class="timeline-body">
+        Formation scientifique axée sur la résolution de problèmes, l'analyse et les expériences pratiques en physique-chimie, ayant permis de développer la logique, le raisonnement et la compréhension de phénomènes scientifiques.
+      </div>
+    </div>
+  </div>
+</section>
+
+#PROJECTION & AVENIR
+<div class="section-divider"></div>
+
+<section id="avenir">
+  <p class="section-label fade-in">// 05. PROJECTION & AVENIR</p>
+
+  <div class="future-layout">
+    <div class="future-main-card fade-in">
+      <h3>Bilan global</h3>
+      <p>
+        Au cours de mon parcours, j'ai développé des compétences en réseaux, télécommunications et cybersécurité, notamment dans la configuration d'infrastructures réseau, l'analyse des communications et la compréhension des systèmes informatiques.
+        J'ai également appris à gagner en autonomie, à renforcer ma logique et à travailler sur des projets techniques en équipe.
+      </p>
+
+      <p>
+        <strong>Axes d'amélioration :</strong> approfondir mes compétences en cybersécurité offensive et en programmation, tout en développant des connaissances en intelligence artificielle appliquée à la cybersécurité.
+      </p>
+    </div>
+
+    <div class="future-cards">
+      <div class="future-small-card fade-in">
+        <h3>Objectif professionnel</h3>
+        <p>
+          Évoluer vers un métier dans la cybersécurité, l'administration réseau ou la sécurité des systèmes d'information.
+        </p>
+        <p>
+          Devenir ingénieure réseau & sécurité, tout en développant des compétences en intelligence artificielle et en préparant des certifications reconnues, comme l'OSCP.
+        </p>
+      </div>
+
+      <div class="future-small-card fade-in">
+        <h3>Poursuite d'études</h3>
+        <p>
+          Poursuivre vers un Master orienté cybersécurité avec une ouverture vers l'intelligence artificielle, afin de renforcer mes compétences en sécurité informatique et de mieux comprendre les enjeux actuels liés à l'IA dans ce domaine.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+#CONTACT
+<div class="section-divider"></div>
+<section id="contact">
+  <p class="section-label fade-in">// 06. CONTACT</p>
+  <h2 class="section-title fade-in">Me contacter</h2>
+
+  <div class="contact-grid">
+    <div class="contact-info fade-in">
+      <p>
+        Je suis actuellement ouverte aux opportunités d'alternance
+        en réseau et cybersécurité. Une question, un projet ou une discussion ?
+      </p><br>
+
+      <p>
+        N'hésitez pas à me contacter.
+      </p><br>
+
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:cameliadouicher77100@gmail.com">
+          <span class="cl-icon">📧</span> cameliadouicher77100@gmail.com
+        </a>
+
+        <a
+          class="contact-link"
+          href="https://linkedin.com/in/cameliadouicher"
+          target="_blank"
+        >
+          <span class="cl-icon">💼</span> linkedin.com/in/cameliadouicher
+        </a>
+
+        <div class="contact-link">
+          <span class="cl-icon">📍</span> Meaux (77100)
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form fade-in" action="https://formspree.io/f/mnjyakap" method="POST">
+      <div class="form-field">
+        <label for="name">VOTRE NOM</label>
+        <input type="text" id="name" name="name" placeholder="Jean Dupont" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">VOTRE EMAIL</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+      </div>
+
+      <div class="form-field">
+        <label for="message">MESSAGE</label>
+        <textarea id="message" name="message" rows="6" placeholder="Bonjour Camelia, je souhaite..." required></textarea>
+      </div>
+
+      <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio">
+
+      <button type="submit" class="btn-submit">ENVOYER →</button>
+    </form>
+  </div>
+</section>
+
+#FOOTER
+<footer>
+  <div>© 2026 <span>Douicher Camelia</span> - Tous droits réservés</div>
+  <div>Conçu & développé sur <span>Kali Linux</span></div>
+  <div class="footer-slogan">// RESTEZ CURIEUX. RESTEZ ÉTHIQUES.</div>
+</footer>
+
+#SCRIPTS
+<script src="main.js"></script>
+</body>
+</html>
