@@ -31,7 +31,7 @@ Ce portfolio présente mes compétences, projets et travaux réalisés en résea
 
 ## Lancer le portfolio
 
-### Solution 1 — Via VS Code (recommandé)
+### Solution 1 Via VS Code (recommandé)
 
 1. Télécharger l'extension **Live Server** sur VS Code
 2. Ouvrir le dossier du portfolio
@@ -40,7 +40,7 @@ Ce portfolio présente mes compétences, projets et travaux réalisés en résea
 
 Le site s'ouvrira automatiquement dans le navigateur.
 
-### Solution 2 — Via GitHub Pages
+### Solution 2 Via GitHub Pages
 
 Le portfolio est également accessible directement en ligne : https://douichercamelia.github.io/camelia-portfolio/
 
